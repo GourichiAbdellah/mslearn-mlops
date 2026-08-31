@@ -72,7 +72,7 @@ def create_or_update_deployment(
         name=deployment_name,
         endpoint_name=endpoint_name,
         model=model,
-        instance_type="Standard_D32d_v5",
+        instance_type="Standard_A2_v2",
         instance_count=1,
         data_collector=get_data_collector(),
     )
